@@ -1,0 +1,40 @@
+$color1: #13005A;
+$color2: #00337C;
+$color3: #1C82AD;
+$color4: #03C988;
+.bg-dark-blue{
+    background-color: $color1;
+}
+.bg-blue{
+    background-color: $color2;
+}
+.bg-light-blue{
+    background-color: $color3;
+}
+.bg-green{
+    background-color: $color4;
+}
+.white-text{
+    color: #fff;
+}
+.d-flex{
+    display: flex;
+}
+.w-50{
+    width: 50%;
+}
+
+.h-divider{
+    width: 80%;
+    margin: 30px auto;
+    height: 1px;
+    background-color: #03C988;
+}
+
+.btn{
+    border: none;
+    padding: 15px 40px;
+    font-size:20px;
+    font-weight: bold;
+    border-radius: 12px;
+}
