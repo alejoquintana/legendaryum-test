@@ -1,18 +1,18 @@
-$color1: #13005A;
-$color2: #00337C;
-$color3: #1C82AD;
-$color4: #03C988;
-.bg-dark-blue{
-    background-color: $color1;
+$darker: #13005A;
+$main: #2d2d2d;
+$light: #1C82AD;
+$color: #ff56e8;
+.bg-dark{
+    background-color: $darker;
 }
-.bg-blue{
-    background-color: $color2;
+.bg-main{
+    background-color: $main;
 }
-.bg-light-blue{
-    background-color: $color3;
+.bg-light{
+    background-color: $light;
 }
-.bg-green{
-    background-color: $color4;
+.bg-color{
+    background-color: $color;
 }
 .white-text{
     color: #fff;
@@ -28,13 +28,20 @@ $color4: #03C988;
     width: 80%;
     margin: 30px auto;
     height: 1px;
-    background-color: #03C988;
+    background-color: $color;
 }
-
+.color-line{
+    margin: 5px 0 10px 0;
+    height: 1px;
+    background-color: $color;
+}
 .btn{
     border: none;
     padding: 15px 40px;
     font-size:20px;
     font-weight: bold;
     border-radius: 12px;
+}
+.m-0{
+    margin: 0;
 }

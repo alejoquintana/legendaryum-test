@@ -68,10 +68,10 @@ video{
     border-radius: 24px;
     height: 80vh;
     width: 80vw;
-    overflow: hidden;
+    //overflow: hidden;
     #design{
         border-radius: 24px;
-        background: #fff;
+        //background: #fff;
     }
     #iframe{
         display: flex;
